@@ -1,0 +1,229 @@
+/*
+Version notes: 
+
+    cards are position: relative; containers 
+    with the button as a position: absolute; item at the
+    bottom and a specific pixel width
+
+    NO media queries
+
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #4B4B4B;
+
+}
+
+/* Typography */
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #351C75;
+}
+
+h3 {
+    font-size: 2.25rem;
+    color: #ffffff;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.mission {
+    color: #F9B813;
+}
+
+.h1-home {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    /* width: 100%; */
+    text-align: center;
+}
+
+/* Layout */
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: #fdfdfd;
+    /* min-width: 700px; */
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+
+.header-top {
+    height: 140px;
+    width: 100%;
+    background-color: #2B7357;
+    display: flex;
+}
+
+.logo {
+    align-items: center;
+    padding-left: 5em;
+}
+
+nav {
+   background-color: #FDF8E0;
+   height: 90px;
+}
+
+/* HERO SECTION */
+
+.hero {
+    background: linear-gradient(0deg, rgba(53,28,117,0.8), rgba(53,28,117,0.8)),
+    url('../images/woman-crossing-street-with-blind-cane.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-color: #351C75;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-home {
+    text-align: right;
+    line-height: .8em;
+    
+}
+
+.h2-home {
+    line-height: .9em;
+    margin: 2em;
+    padding-top: 1em;
+    
+}
+
+.hero-heading {
+    width: 40%;
+    margin: 0 1em 0 2em;
+}
+
+.mission {
+    width: 60%;
+    padding-right: 6em;
+    margin-left: 1em;
+}
+
+/* PROGRAM SECTION */
+
+.programs {
+    background-color: #E5E5E5;
+    height: 912px;
+    display: flex;
+    flex-direction: column;
+    
+    /* outline: 1px solid black; */    
+}
+
+.program-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4em;
+}
+
+.card {
+    padding-top: .5em;
+    margin-left: .5em;
+    width: 360px;
+    min-width: 360px;
+    height: 500px;
+    /* outline: 1px solid black; */
+    border-top: 5px solid #DC5536; 
+    position: relative;       
+}
+
+.card-image {
+    width: 100%;
+    height: 280px;
+    text-align: right;
+    position: relative;
+}
+
+#card-1 {
+    background-image: linear-gradient(to bottom, rgba(53,28,117,0.05), rgba(53,28,117,0.5)), 
+    url('../images/braille-screenreader.jpg');
+}
+
+#card-2 {
+    background-image: linear-gradient(to bottom, rgba(53,28,117,0.05), rgba(53,28,117,0.5)), 
+    url('../images/woman-reading-braille.jpg');
+}
+
+#card-3 {
+    background-image: linear-gradient(to bottom, rgba(53,28,117,0.05), rgba(53,28,117,0.5)), 
+    url('../images/blind-man-using-mobile-device.jpg');
+}
+
+.h4-placing {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    padding: .5em;
+    width: 50%;
+}
+
+.card-text {
+    padding: 1.5em;
+}
+
+.card-button {
+    width: 320px;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 20px;
+    background-color: #DC5536;
+    color: white;
+}
+
+
+/* TESTIMONIALS SECTION */
+
+.testimonials {
+    height: 645px;
+    background-color: rgb(241, 199, 0, 0.12);
+}
+
+.donation-home {
+    background-color: #ffffff;
+    
+}
+
+.donation-card {
+    background-color: #2B7357;
+    height: 370px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #351C75;
+    height: 575px;
+}
+
+
