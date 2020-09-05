@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link href="/css/arvin.css" rel="stylesheet" type="text/css">
-    <link href="/css/style.css" rel="stylesheet" type="text/css">
-    <title>Austin Lighthouse - Test index.md</title>
+    <link href="../css/arvin.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <title>Austin Lighthouse - Test Docs</title>
     <script src="https://kit.fontawesome.com/db76fa006a.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="dropDownMenu">
                     <ul>
-                        <li><a href="../htdocs/AboutUs.html">Story</a></li>
+                        <li><a href="AboutUs.html">Story</a></li>
                         <li><a href="#">Our Warehouse</a></li>
                         <li><a href="#">Board Of Directors</a></li>
                         <li><a href="#">News</a></li>
