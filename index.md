@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="../css/arvin.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <title>Austin Lighthouse</title>
+    <script src="https://kit.fontawesome.com/db76fa006a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <div class="header">
+            <!-- HEADER LEFT -->
+            <div id="headerLeft">
+                <div class="hamburgerMenu"><img class="hamburgerIcon" src="..//images/hamburger.png">Menu</i></div>
+                <a href="../htdocs/index.html"><img class="logo" src="../images/austin-lighthouse-logo.svg" alt="Austin Lighthouse Logo" title="Austin Lighthouse Logo"></a>
+                <img class="tabletLogo" src="../images/tabletLogo.svg" alt="Austin Lighthouse Logo">  
+                <div class="glassMenu"><img class="magnifyingGlass" src="..//images/glass.png">Search</i></div>
+            </div>
+            <!-- HEADER RIGHT -->
+            <div id="headerRight" class="">
+                <div class="searchBox">
+                    <input type="text" class="input" placeholder="Search the site">
+                    <i class="fas fa-search"></i>
+                </div>
+                <button>Donate</button>  
+            </div>       
+        </div>
+        <!-- NAVIGATION -->
+        <nav>
+            <div id="nav1" class="block">
+                <div class="flex">
+                    <div class="navText">
+                        <a class="text1" href="#">About Us</a>
+                        <img class="arrowDown" src="../images/Arrow_Down_Green.svg">
+                    </div>
+                </div>
+                <div class="dropDownMenu">
+                    <ul>
+                        <li><a href="../htdocs/AboutUs.html">Story</a></li>
+                        <li><a href="#">Our Warehouse</a></li>
+                        <li><a href="#">Board Of Directors</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div> 
+            </div>
+            <div id="nav2" class="block">
+                <div class="flex">
+                    <div class="navText">
+                        <a class="text1" href="#">Services</a>
+                        <img class="arrowDown" src="../images/Arrow_Down_Green.svg">
+                    </div>
+                </div>
+                <div class="dropDownMenu">
+                <ul>
+                    <li><a href="#">Adaptive Tech Training</a></li>
+                    <li><a href="#">Distribution Service Training</a></li>
+                    <li><a href="#">Vocational Service & Support</a></li>
+                </ul>
+            </div> 
+        </div>
+
+        <div id="nav3" class="block">
+            <div class="flex">
+                <div class="navText">
+                    <a class="text1" href="#">Careers</a>
+                    <img class="arrowDown" src="../images/Arrow_Down_Green.svg">
+                </div>
+            </div>
+            <div class="dropDownMenu">
+                <ul>
+                    <li><a href="#">Employment Opportunities</a></li>
+                    <li><a href="#">Manufacturing Jobs</a></li>
+                    <li><a href="#">Warehousing & Distribution Jobs</a></li>
+                    <li><a href="#">Ability One</a></li>
+                </ul>
+            </div> 
+        </div>
+
+        <div id="nav4" class="block">
+            <div class="flex">
+                <div class="navText">
+                    <a class="text1" href="#">Resources</a>
+                    <img class="arrowDown" src="../images/Arrow_Down_Green.svg">
+                </div>
+            </div>
+            <div class="dropDownMenu">
+                <ul>
+                    <li><a href="#">Community Resources</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Vision Simulator</a></li>
+                    <li><a href="#">Educational Webinars</a></li>
+                </ul>
+            </div> 
+        </div>
+
+        <div id="nav5" class="block">
+            <div class="flex">
+                <div class="navText">
+                    <a class="text1" href="#">Shop</a>
+                    <img class="arrowDown" src="../images/Arrow_Down_Green.svg">
+                </div>
+            </div>
+            <div class="dropDownMenu">
+                <ul>
+                    <li><a href="#">Low Vision Products</a></li>
+                    <li><a href="#">Registered Customer</a></li>
+                </ul>
+            </div> 
+        </div>
+
+        </nav>
+    <!-- Main Body -->
+
+        <section class="hero">
+            <img src="">
+            
+                <div class="hero-heading">
+                    <h1 class="h1-home">Who we are</h1>
+                </div>
+                <div class="mission">
+                    We are a service-oriented 501(c)(3) non-profit organization 
+                    that offers education, training, advocacy and community for blind 
+                    and visually-impaired individuals in Travis County and surrounding areas.
+                </div>
+            
+        </section>
+
+        <div id="program-h2"><h2><span>We are committed to you:</span> Training & Education Programs</h2></div>
+        <section class="program-grid">
+           
+                
+                    <div id="program-card1">                        
+                        <div class="card-image" id="card-1"><h4 class="h4-placing">Adaptive Technology Training</h4></div>
+                        <p class="card-text">Working towards a better skillset & job opportunity with Austin Lighthouse.</p>
+                        <p><a href="#" class="btn card-button">Learn More</a></p>
+                    </div>                
+                    
+                    <div id="program-card2">
+                        <div class="card-image" id="card-2"><h4 class="h4-placing">Distribution Training Services</h4></div>
+                        <p class="card-text">Get to learn our every aspect on Warehousing and Distribution services.
+                        <p><a href="#" class="btn card-button">Learn More</a></p>
+                    </div>
+               
+                    <div id="program-card3">
+                        <div class="card-image" id="card-3"><h4 class="h4-placing">Vocational Services & Support</h4></div>
+                        <p class="card-text">Providing job readiness skills for blind and visually impaired Texans.</p>
+                        <p><a href="#" class="btn card-button">Learn More</a></p>
+                    </div>
+                
+           <div id="testimonial-video">
+               <img src="../images/Testimonial-Joe-Perez.jpg" id="testimonial-img" >
+           </div>
+
+           <div id="testimonial-text">
+               <div>
+                <h2><span>Testimonials:</span> Stories of Success</h2>
+                <p>“Austin Lighthouse programs changed my life. I found community and a great support system to equip me with the tools I need to live independently,"  <strong> - Joe Perez</strong></p>
+                <p><a href="#" class="btn card-button">View More Testimonials</a></p>
+                </div>
+
+           </div>
+
+
+
+           
+
+
+
+        </section>
+
+        <!-- Program section -- programmed with flex 
+           
+        <section class="programs">
+            <div class="program-box">
+                <h2 class="h2-content">We are committed to you: Training & Education Programs</h2>
+                <div class="program-list">
+                    <div class="card">
+                        <div class="card-image" id="card-1"><h4 class="h4-placing">Adaptive Technology Training</h4></div>
+                        <p class="card-text">Working towards a better skillset & job opportunity with Austin Lighthouse.</p>
+                        <p><a href="#" class="btn card-button">Learn More</a></p>
+                    </div>
+                    <div class="card">
+                        <div class="card-image" id="card-2"><h4 class="h4-placing">Distribution Training Services</h4></div>
+                        <p class="card-text">Get to learn our every aspect on Warehousing and Distribution services.
+                        <p><a href="#" class="btn card-button">Learn More</a></p>
+                    </div>
+                    <div class="card">
+                        <div class="card-image" id="card-3"><h4 class="h4-placing">Vocational Services & Support</h4></div>
+                        <p class="card-text">Providing job readiness skills for blind and visually impaired Texans.</p>
+                        <p><a href="#" class="btn card-button">Learn More</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <img src="">
+            <h2>Testimonials: Stories of Success</h2>
+            <div class="testimonial-text">
+                “Austin Lighthouse programs changed my life. I found community and a great support system to equip me with the tools I need to live independently,"  <strong> - Joe Perez</strong>
+            </div>
+            <a href="#">Watch Video</a>  
+        </section> -->
+
+        <section class="donation-home">
+            <div class="donation-card">
+                <h3>Every dollar goes directly to helping people who are blind or visually impaired.</h3>
+                
+                <div>
+                <img src="../images/hands-holding-heart.png">
+                <p><a href="../htdocs/Donate.html" class="btn donate-button">Learn How to Donate</a></p>
+                </div>
+
+            </div>
+
+            <div class="partners">
+                <h2><span>Partners</span></h2>
+               <div class="logos">
+                <img src="../images/ability-one 1.png">
+                <img src="../images/naepb 1.png">
+                <img src="../images/skilcraft.png">
+                <img src="../images/worksWonder 1.png">
+                <img src="../images/nib.png">
+               </div> 
+            </div>
+
+        </section>
+
+        
+
+        
+
+    </div>
+    <section class="footer">
+        <section class="siteMapGrid">
+            <div id="aboutNav" class="siteMapGridArea">
+                <h1 class="sitemapH1">About Us</h1>
+                <ul class="footerUl">
+                    <li class="footerLi"><a href="../htdocs/AboutUs.html" class="footerLink">Our Story</a></li>
+                    <li class="footerLi"><a href="#" class="footerLink">Our Warehouse</a></li>
+                    <li class="footerLi"><a href="#" class="footerLink">Board of Directors</a></li>
+                    <li class="footerLi"><a href="#" class="footerLink">News</a></li>
+                    <li class="footerLi"><a href="#" class="footerLink">Contact Us</a></li>
+                </ul>
+            </div>
+            <div id="servicesNav" class="siteMapGridArea">
+                <h1 class="sitemapH1">Services</h1>
+                <ul class="footerUl">
+                    <li class="footerLi"><a href="#" class="footerLink">Adaptive Technology Training</a></li>
+                    <li class="footerLi"><a href="#" class="footerLink">Distribution Services Training</a></li>
+                    <li class="footerLi"><a href="#" class="footerLink">Vocational Services and Support</a></li>
+                    <li class="footerLi"><a href="#" class="footerLink">Educational Webinars</a>
+                    </div></li>
+                </ul>
+            </div>
+            <div id="careersNav" class="siteMapGridArea">
+                <h1 class="sitemapH1">Careers</h1>
+                <ul class="footerUl">
+                    <li class="footerLi"><a href="#" class="footerLink">Employement Opportunities</a></li>
+                    <li class="footerLi"><a href="#" class="footerLink">Manufacturing Jobs</a></li>
+                    <li class="footerLi"><a href="#" class="footerLink">Warehousing and Distribution</a></li>
+                    <li class="footerLi"><a href="#" class="footerLink">Ability One</a></li>
+                </ul>
+            </div>
+            <div id="resourcesNav" class="siteMapGridArea">
+                <h1 class="sitemapH1">Resources</h1>
+                <ul class="footerUl">
+                    <li class="footerLi"><a href="#" class="footerLink">Community Resources</a></li>
+                    <li class="footerLi"><a href="#" class="footerLink">FAQ</a></li>
+                    <li class="footerLi"><a href="#" class="footerLink">Vision Simulator</a></li>
+                </ul>
+            </div>
+            <div id="shopNav" class="siteMapGridArea">
+                <h1 class="sitemapH1">Shop</h1>
+                <ul class="footerUl">
+                    <li class="footerLi"><a href="#" class="footerLink">Low Vision Products</a></li>
+                    <li class="footerLi"><a href="#" class="footerLink">Registered Customers</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="bottomFooter" class="flexBottom">   
+            <div id="socialLinks" class="flexFooter">    
+                <h1 class="h1-social">Connect with us</h1>
+                <div id="socialIcons"></div>  
+                    <a href="#" id="facebook"> 
+                            <img src="../images/facebook-icon.png" alt="Facebook"style="width:60x;height:60px;">
+                        </a>
+                    <a href="#" id="twitter"> 
+                            <img src="../images/twitter-icon.png" alt="Twitter" style="width:60x;height:60px;">
+                        </a>  
+            </div>
+            <div id="contactLogo" class="flexFooter">    
+                <a href="../htdocs/index.html"> <img src="../images/austin-lighthouse-logo.svg" class="footerLogo" alt="Austin Lighthouse Logo" style="width:200x;height:90px;">
+                </a>
+            </div>
+            <div id="contact" class="flexFooter">  
+                <p class="adress">4512 S Pleasant Valley Rd
+                <br class="adressSpace">Telephone : 512-442-2329   Fax : 512-442-5498</p>
+                <p class="privacy">© 1979 — 2020   |   Privacy — Terms B4</p>
+            </div>      
+        </section>     
+    </section>
+</body>
+</html>
