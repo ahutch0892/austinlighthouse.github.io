@@ -89,6 +89,15 @@ background-repeat: none;
 background-size: cover;
 height: 100%;
 }
+.heroMobile{
+    display: none;
+}
+.twoMenSmall{
+    display: none;
+}
+.earlyAustinLighthouseSmall{
+    display: none;
+}
 /* .mission {
     width: 100%;
     padding-right: 6em;
@@ -143,6 +152,25 @@ padding: 5em 0;
 .ourhistory {
     background-color: #FDF8E0;
 }
+#history{
+    border-radius: 2px;
+    background-color: #351C75;
+    border: 2px solid transparent;
+    color: #FFFFFF;
+    font-size: 22px;
+    color: white;
+    width: 15em;
+    cursor: pointer;
+    margin: 1em 0 0 0;
+    
+}
+#history:hover{
+    border: 2px solid #351C75;
+    background-color: white;
+    color:#351C75
+    /* font-weight: 600; */
+}
+
 .meetaustinlighthouse {
     background-color: white;
 }
@@ -183,6 +211,9 @@ padding: 5em 0;
     display: flex;
     flex-direction: column;  
     align-content: space-between;  
+}
+.cardButton{
+    display: none;
 }
 .card-image {
     width: 100%;
@@ -412,7 +443,9 @@ padding: 5em 0;
         text-align: left;
         padding: 0;
     }
-
+    .hero {
+        width: 500px;    
+    }
     .mission {
         font-size: 1.25rem;
     }
@@ -420,7 +453,99 @@ padding: 5em 0;
     .hero, .program-list {
         flex-direction: column;
     }
+    
+    .h1-home {
+        text-align: left;
+        line-height: 74px;
+        position: absolute;
+        bottom:74px;
+        left:20px;
+    }
+    .program, .program2, .program3 {
+        /* justify-content: flex-end; */
+        padding: 1.5em 1em;
+     
+     
+    }
+    .card {
+        padding-top: .5em;
+        /* margin-left: 0em; */
+        /* width: 337px; */
+        /* min-width: 337px; */
+        height: 580px;
+        /* outline: 1px solid black; */
+        border-top: 5px solid #2B7357; 
+        position: relative;   
+        display: flex;
+        flex-direction: column;  
+        align-content: center;  
+    }
+    .program-list{
+        align-content: center;
+    }
+    .program-list5{
+        display: none;
+    }
+    .program-list2{
+        display:flex;
+        flex-direction: column-reverse;
+        /* order:-2; */
+    }
+    
+    .program2 p{
+      margin: 0 auto;
+        
+    }
+    .cardButton{
+        border-radius: 2px;
+        background-color: #2B7357;
+        border: 2px normal transparent;
+        color: #FFFFFF;
+        font-size: 22px;
+        color: white;
+        width: 15em;
+        cursor: pointer;
+        margin: 1em 0 0 0;
+        display: block;
+        
+    }
+    .cardButton:hover{
+        border: 2px solid #2B7357;
+        background-color: white;
+        color:#2B7357
+        /* font-weight: 600; */
+    }
+    .hero-heading{
+        background-image: none;
+    }
+    .twoMenBig{
+        display: none;
+    }
+    .earlyAustinBig{
+        display: none;
+    }
+    .heroMobile{
+        display: inline;
+        max-width: 100vh;
+    }
+
+    .program .missionText{
+        width: 450px;
+    }
+    .program2 .historyText{
+        width: 450px;
+    }
+    #history{
+        margin: 2em 0 0 0;
+    }
+    .twoMenSmall{
+        display: block;
+    }
+    .earlyAustinLighthouseSmall{
+        display: block;
+    }
     .footer {
+        margin-top:22em;
         min-height: unset !important;
         width:100%;
     }
@@ -461,5 +586,6 @@ padding: 5em 0;
         text-align: center;
         margin: 2.5em 5em;
     }
-
 }
+
+

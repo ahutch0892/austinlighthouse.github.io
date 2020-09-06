@@ -140,6 +140,8 @@ nav {
     width: 60%;
     padding-right: 6em;
     margin-left: 1em;
+    font-size: 1.25rem;
+
 }
 
 /* PROGRAM SECTION */
@@ -157,7 +159,7 @@ nav {
 
 .program-grid {
     /* outline: 1px solid black; */
-    padding: 2em;
+    /* padding: 2em; */
      height: 100%;
      width: 100%;
      padding: 2em 0;
@@ -168,13 +170,13 @@ nav {
      grid-template-columns: 33.3% 33.3% 33.3%;
      grid-template-areas: 
      "program-card1 program-card2 program-card3"
-     "testimonial-video testimonial-text testimonial-text";
+     "testimonial-video testimonial-video testimonial-text";
      justify-items: center;
  }
  
  #program-card1, #program-card2, #program-card3 { 
-     padding-top: 2em;
-     border-top: 5px solid #DC5536; 
+     padding-top: .5em;
+     border-top: 7px solid #DC5536; 
      display: flex;
      flex-direction: column;
      align-content: space-between;  
@@ -198,9 +200,9 @@ nav {
      grid-area: program-card3;
  }
  
- #program-h2 {
+ #program-h2 h2{
      /* grid-area: program-h2; */
-     margin: 1em 2em;
+     padding: 1em 1em;
  }
 
 /* .program-box {
@@ -216,13 +218,13 @@ nav {
 } */
 
 .card {
-    padding-top: .5em;
+    padding-top: .25em;
     margin-left: .5em;
     width: 360px;
     min-width: 360px;
     height: 500px;
     /* outline: 1px solid black; */
-    border-top: 5px solid #DC5536; 
+    border-top: 10px solid #DC5536; 
     position: relative;   
     display: flex;
     flex-direction: column;  
@@ -231,7 +233,7 @@ nav {
 
 .card-image {
     width: 100%;
-    height: 500px;
+    height: 300px;
     text-align: right;
     position: relative;
 }
@@ -268,29 +270,35 @@ nav {
 }
 
 .card-text {
-    padding: 3em 1.5em;
+    padding: 1em;
+    font-size: 1.25rem;
 }
 
 .card-button {
     width: 100%;
     /* position: absolute;
     bottom: 0; */
-    padding: 10px 0;
+    padding: 15px 0;
     background-color: #DC5536;
     color: white;
+    font-weight: 700;
     display: block;
 
 }
 .card-button:hover{
-    border: 0.5px solid #DC5536;
+    outline: 3px solid #DC5536;
     background-color: white;
-    font-weight: 500;
+    
     color:#DC5536 ;
+
 }
 
 
 
 
+
+
+/* TESTIMONIALS SECTION */
 
 /* TESTIMONIALS SECTION */
 
@@ -303,16 +311,20 @@ nav {
     
     grid-area: testimonial-video;
     align-items: center;
+    margin: 0 0 0 -15em;
  }
 
  #testimonial-img {
      height: 300px;
+     padding: 0 2.9em;
  }
 
 #testimonial-text {
    /* outline: 1px solid black; */
     grid-area: testimonial-text;
-    justify-content: center;      
+    justify-content: center;  
+    margin:    0 0 0 -15em;
+    
 }
 
 #testimonial-text div {
@@ -327,6 +339,15 @@ nav {
    /* outline: 1px solid black; */
    padding: 20px 0px;
    /*  margin: 2em 0; */
+   font-size: 1.25rem;
+}
+
+.narrow {
+    width: 75%;
+}
+
+.extra-narrow {
+    width: 50%;
 }
 
 
@@ -376,7 +397,9 @@ nav {
     background-color: #F9B813;
     color: white;
     display: block;
+    font-weight: 700;
     margin-top: 2em;
+    border: 2px solid transparent;
 
 }
 
@@ -384,7 +407,7 @@ nav {
 .donate-button:focus {
     background-color: white;
     color: #351C75;
-    border: 2px solid #351C75
+    border: 2px solid #351C75;
 }
 
 .partners {
@@ -519,6 +542,25 @@ nav {
     font-size: 1rem;
 }
 
+/* @media only screen and (min-width: 801px) {
+
+   .program-grid {
+    grid-template-areas: "program-card1 program-card2 program-card3" 
+    "testimonial testimonial testimonial";
+   } 
+
+   #testimonial-text {
+       grid-area: testimonial;
+       background-color: rgb(241, 199, 0, 0.12);
+   }
+
+   #testimonial-video {
+       grid-area: testimonial;
+       background-color: rgb(241, 199, 0, 0.12);
+   }
+
+
+} */
 
 @media only screen and (max-width: 800px) {
 
@@ -601,7 +643,7 @@ nav {
     }
 
     .mission {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     .hero, .program-list {

@@ -147,7 +147,7 @@ nav {
 .dropDownMenu a:hover{
   background-color: #FABF2B
 }
-#nav1:hover .dropDownMenu{
+/* #nav1:hover .dropDownMenu{
     display:block;
 }
 #nav2:hover .dropDownMenu{
@@ -161,7 +161,7 @@ nav {
 }
 #nav5:hover .dropDownMenu{
     display:block;
-}
+} */
 
     
 

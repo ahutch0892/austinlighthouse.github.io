@@ -149,6 +149,9 @@ nav {
     height: 395px
     /* right: 800px; */
 }
+.capitalSmall {
+    display: none;
+}
 
 .donateHeadline {
     margin-bottom: 80px;
@@ -166,18 +169,31 @@ nav {
     /* height: 55px; */
     /* width: 360px; */
     background-color:#351C75;
+    border: 2px solid transparent;
     /* padding: 15px 80px; */
     margin: 20px 0px;
     color: white;
 }
+.sendOnline:hover{
+    /* background-color:#2B7357; */
+    border: 2px solid #351C75;
+    background-color: white;
+    color: #351C75;
+    font-weight: 700;
+}
 .emailUs {
-    /* height: 55px;
-    width: 360px; */
     background-color:#2B7357;
-    /* padding: 15px 139px; */
+    border: 2px solid transparent;
     color: white;
 }
 
+.emailUs:hover{
+    /* background-color:#2B7357; */
+    border: 2px solid #2B7357;
+    background-color: white;
+    color: #2B7357;
+    font-weight: 700;
+}
 /* How your Donations Impact the Community Section  */
 .impactStats {
     background-color: #ffffff;
@@ -430,9 +446,14 @@ span{
     }
 
     .hero-heading {
-        margin: 0 0 0 -2em;
+        width: 100%;
+        padding-left: 2em;
+        display: block;
     }
-
+    .brody{
+        width: 420px;
+        padding-top: 1em;
+    }
     .hero img {
         width: 100%;
         height: auto;
@@ -443,12 +464,13 @@ span{
 
     .h2-home {
         margin-top: 1em;
+        margin-left: 0em;
     }
 
-    /* Get Involved Section */
+ /* Get Involved Section */
     .getInvolved {
         height: unset !important;
-        /* padding: 5em; */
+        padding: 2em 1em;
     }
 
     .h2-donate2 {
@@ -456,13 +478,30 @@ span{
     }
 
 /* How to Donate */
-    .capitalImg {
-        width: 100%;
+
+    .donateSection{
+        padding: 1em 0 0 0;
+        height: 950px;
     }
 
-    .donationButtonsSection {
-        flex-direction: column;
+    .donationButtonSection {
+        display: block !important;
+        margin: 0 auto 2em 1em;
     }
+
+    .capitalImg img {
+        width: 100vw;
+        padding: 0;
+    }
+    .capitalBig {
+        display: none;
+    }
+    .capitalSmall {
+        display: block;
+        width: 500px;
+        padding-top: 2em;
+    }
+
 
     .impactStats {
         flex-direction: column;
@@ -470,25 +509,58 @@ span{
 
 /* Impact Section */
     .impactStats {
-        height: 1100px;
-        margin-right: 4.5em;
+        height: 1000px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .impactSection p{
+        padding: 2em;
     }
 
     .impactSection {
         width: 100%;
-        padding-bottom: 0em;
+        padding: 0em;
     }
 
     .money {
         height: 100px;
-        width: 100px;    
+        width: 100px;  
+        margin: 0 auto;
+
     }
 
     .family {
         height: 100px;
-        width: 100px;   
+        width: 100px;  
+        margin: 0 auto; 
     }
+    .h5-impact{
+        font-size: 2em;
+        width: 100%;
+        padding: 1em 2em 2em 1em;
 
+    } 
+   
+    .donateHeadline h2{
+        padding: 0.75em 1em 0em 0.75em;
+    
+    }
+    .parentContainer {
+        width: 100%;
 
+    }
+    .sendOnline {
+        width: 12em;
+    }
+    .emailUs {
+        width: 12em;
+    }
+    .donateHeadline {
+        margin-bottom: 1.75em;
+    }
+    .icons {
+        font-size: 1.75rem;
+    }
+ 
 }
 
